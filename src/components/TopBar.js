@@ -40,7 +40,7 @@ const items = [
   },
 ];
 
-const Homepage = () => {
+const TopBar = () => {
   const [current, setCurrent] = useState("hiro");
   const onClick = (e) => {
     console.log(click, e);
@@ -56,4 +56,4 @@ const Homepage = () => {
   );
 };
 
-export default Homepage;
+export default TopBar;

@@ -1,8 +1,8 @@
 import React from "react";
-import CardAuth from "../../components/CardAuth";
+import FormLogin from "./FormLogin";
 
 const Login = () => {
-  return <CardAuth />;
+  return <FormLogin />;
 };
 
 export default Login;

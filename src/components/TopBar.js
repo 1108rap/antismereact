@@ -2,7 +2,6 @@ import { HomeOutlined, SettingOutlined, UserOutlined } from "@ant-design/icons";
 import { click } from "@testing-library/user-event/dist/click";
 import { useState } from "react";
 import { Menu } from "antd";
-import { Link } from "react-router-dom";
 const items = [
   {
     label: "Hiro",

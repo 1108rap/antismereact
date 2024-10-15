@@ -8,6 +8,12 @@ const User = {
     const res = await pool.query(query, values);
     return res.rows[0];
   },
+
+  findByUsername: async (username) => {
+    const query = "SELECT * FROM users WHERE username = $1";
+    const res = await pool.query(query, [username]);
+    return res.rows[0];
+  },
 };
 
 module.exports = User;
